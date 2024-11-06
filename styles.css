@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    --couleur_back : #333;
+    --gris : #808080;
+    --violet : #800080;
+    --vert : #008000;
+    --orange : #ffa500;
+    --rose : #ffc0cb;
+    --bleu : #87ceeb;
+    --bleu-fonce : #0000ff;
+    --rouge : #ff0000;
+    --jaune : #fbff00;
+}
+body {
+    background-color: var(--couleur_back);
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+code {
+    background-color: #222222;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}
+h3 {
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+    margin: 10px;
+}
+p {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+a {
+    color: blue;
+    font-size: 30px;
+}
+.box-variables {
+    background-color: black;
+    height: 130px;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+.gris {
+    color: var(--gris);
+}
+.violet {
+    color: var(--violet);
+}
+.vert {
+    color: var(--vert);
+}
+.orange {
+    color: var(--orange);
+}
+.rose {
+    color: var(--rose);
+}
+.bleu {
+    color: var(--bleu);
+}
+.bleu-fonce {
+    color: var(--bleu-fonce);
+}
+.rouge {
+    color: var(--rouge);
+}
+.jaune {
+    color: var(--jaune);
+}
+.use-variable {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+.box-use-variable {
+    background-color: black;
+    height: 170px;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+.box-input{
+    background-color: black;
+    height: 170px;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+.box-condition {
+    background-color: black;
+    height: 250px;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+.exercice {
+    text-align: center;
+    margin-top: 20px;
+}
+.box-exercice-cinema {
+    background-color: black;
+    height: 250px;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+.box-boucles {
+    background-color: black;
+    height: 300px;
+    border-radius: 12px;
+    border: solid 1px white;
+}

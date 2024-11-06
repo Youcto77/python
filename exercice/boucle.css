@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    --couleur_back : #333;
+    --gris : #808080;
+    --violet : #800080;
+    --vert : #008000;
+    --orange : #ffa500;
+    --rose : #ffc0cb;
+    --bleu : #87ceeb;
+    --bleu-fonce : #0000ff;
+    --rouge : #ff0000;
+    --jaune : #fbff00;
+}
+body {
+    background-color: var(--couleur_back);
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gris {
+    color: var(--gris);
+}
+.violet {
+    color: var(--violet);
+}
+.vert {
+    color: var(--vert);
+}
+.orange {
+    color: var(--orange);
+}
+.rose {
+    color: var(--rose);
+}
+.bleu {
+    color: var(--bleu);
+}
+.bleu-fonce {
+    color: var(--bleu-fonce);
+}
+.rouge {
+    color: var(--rouge);
+}
+.jaune {
+    color: var(--jaune);
+}
+.box-exercice-boucle{
+    background-color: black;
+    height: 900px;
+    width: 100%;
+    border-radius: 12px;
+    border: solid 1px white;
+}
+h3 {
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+    margin: 10px;
+}

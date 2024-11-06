@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cinema.css">
+    <link rel="shortcut icon" href="../image/Python-logo-notext.svg.png" type="image/x-icon">
+
+    <title>Code 1</title>
+</head>
+<body>
+    <div class="box-exercice-cinema">
+        <h3>prix_mineur = 6</h3>
+        <h3>prix_majeur = 9</h3>
+        <h3>prix_popcorn = 5</h3>
+        <br>
+        <h3>print("Bienvenue dans le cinéma !")</h3>
+        <h3>age = int(input("Quelle age avez vous ? :"))</h3>
+        <br>
+        <h3>if age < 18:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;mineur = input(f"Vu que vous êtes mineur ça vous fais {prix_mineur}€. Voulez vous du pop-corn à {prix_popcorn}€ ? (oui/non) : ")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;if mineur == "oui":</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prix_final_mineur = prix_mineur + prix_popcorn</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"Ok, ça vous fais un totale de {prix_final_mineur}€.")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;elif mineur == "non":</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"Ok, ça vous fais un totale de {prix_mineur}€.")</h3>
+        <h3>else:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;majeur = input(f"Vu que vous êtes majeur ça vous fais {prix_majeur}€. Voulez vous du pop-corn à {prix_popcorn}€ ? (oui/non) : ")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;if majeur == "oui":</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prix_final_majeur = prix_majeur + prix_popcorn</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"Ok, ça vous fais un totale de {prix_final_majeur}€.")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;elif majeur == "non":</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"Ok, ça vous fais un totale de {prix_majeur}€.")</h3>
+    </div>
+</body>
+</html>

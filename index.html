@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./image/Python-logo-notext.svg.png" type="image/x-icon">
+    <title>Apprendre le Python</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="variable">
+            <h2>Les variables :</h2>
+            <p>En python, les variables peuvent contenir 4 types de données : Chaîne de caractères, Nombre entier, Nombre flottant et Booléen</p>
+        </div>
+        <div class="box-variables">
+            <h3>age = <span class="violet">17</span> <span class="gris">#Nombre entier </span></h3>
+            <h3>decimal = <span class="violet">23.5</span> <span class="gris">#Nombre flottant </span></h3>
+            <h3>prenoms = <span class="vert">"Enzo"</span> <span class="gris">#Chaîne de caractères </span></h3>
+            <h3>decisions = <span class="orange">True</span> / <span class="orange">False</span> <span class="gris">#Booléen </span></h3>
+        </div>
+
+        <div class="use-variable">
+            <h2>Comment utiliser des variables :</h2>
+            <p>Pour utiliser des variables en Python, commencez par leur donner un nom et une valeur avec = <code>(par exemple, age = 25)</code>. Vous pouvez ensuite appeler cette variable par son nom pour afficher, modifier ou manipuler sa valeur dans le code. Les variables rendent le programme plus lisible et permettent de travailler facilement avec des données sans avoir à les retaper.</p>
+        </div>
+        <div class="box-use-variable">
+            <h3><span class="rose">prenoms</span> = <span class="vert">"Enzo" </span><span class="gris">#Création de la variable "prenoms"</span></h3>
+            <br>
+            <h3>print(<span class="rose">prenoms</span>) <span class="gris">#Envoi dans la console "Enzo"</span></h3>
+            <h3>print("Bonjour je suis" <span class="bleu">+</span> <span class="rose">prenoms</span> <span class="bleu">+</span> ".") <span class="gris">#Envoi dans la console "Bonjour je suis Enzo."</span></h3>
+            <h3>print(<span class="rouge">f</span>"Bonjour je suis <span class="bleu-fonce">{</span><span class="rose">prenoms</span><span class="bleu-fonce">}</span>.) <span class="gris">#Envoi aussi dans la console "Bonjour je suis Enzo." (conseillé)</span></h3>
+        </div>
+
+        <div class="input">
+            <h2>Les inputs :</h2>
+            <p>Les inputs sert a envoyer du text dans la console comme <code>print()</code> mais a a la différence de se dernier. Les input servent a envoyer du text où on peut y répondre et stocker la réponse.</p>
+        </div>
+        <div class="box-input">
+            <h3><span class="jaune">input</span>("Quelle age avez vous ? : ") <span class="gris">#Voici un exemple de input.</span></h3>
+            <br>
+            <h3><span class="rose">age</span> = <span class="jaune">input</span>("Quelle age avez vous ? : ") <span class="gris">#En rajoutant "age =" devant le input ca stock la réponse dans la variable "age"</span></h3>
+            <h3>> 17 <span class="gris">#Si je met 17. Cette données sera stockée dans "age"</span></h3>
+            <h3>print(f"vous avez {<span class="rose">age</span>} ans.") <span class="gris">#Envoi dans la console "Vous avez 17 ans."</span> </h3> 
+        </div>
+
+        <div class="condition">
+            <h2>Les conditions :</h2>
+            <p>En Python, les conditions permettent de prendre des décisions dans le programme en fonction de certains critères. Une condition utilise des mots-clés comme <code>if</code>, <code>elif</code>, et <code>else</code> pour exécuter des blocs de code spécifiques selon que des expressions soient vraies ou fausses. Par exemple, <code>if age >= 18:</code> vérifie si age est supérieur ou égal à 18, et exécute le code qui suit uniquement si la condition est vraie. Les conditions rendent le programme interactif et permettent d’adapter son comportement à différentes situations.</p>
+        </div>
+        <div class="box-condition">
+            <h3>age =  <span class="jaune">int(</span>input("Quelle àge avez vous ? :")<span class="jaune">)</span> <span class="gris">#Le int() devant le input sert a convertir la valeur en chiffre entier</span> </h3>
+            <br>
+            <h3> <span class="rouge">if</span>  age >= 18: <span class="gris">#Si age est supérieur ou égale à 18</span> </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;print("Vous êtes majeur !") <span class="gris">#Alors envoi dans la console "Vous êtes majeur"</span> </h3>
+            <h3><span class="rouge">elif</span> age <= 3: <span class="gris">#Ajout d'une condition supplémentaires (pas obligatoire). Si age est plus petit ou égale a 3.</span> </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;print("Vous êtes trop jeune !")</h3>
+            <h3> <span class="rouge">else</span>: <span class="gris">#Sinon</span></h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;print("Vous êtes mineur !") <span class="gris">#Envoi dans la console "Vous êtes mineur"</span> </h3>
+        </div>
+        <div class="exercice"><a href="/exercice/cinema.html" target="_blank" rel="noopener noreferrer">Code d'un exercice qui fait travailler les variables, print, input et les conditions</a></div>
+        
+        <div class="boucles">
+            <h2>Les boucles :</h2>
+            <p>En python il éxiste deux type de boucles des boucles : <code>while</code> et <code>for</code>. Les boucles <code>while</code> servent a intégré une condition dedans, elle contine a s'exécuter tant que la condition est vraie Elle est utile quand on ne sait pas d'avance combien d'itérations seront nécessaires. La boucle <code>for</code> est souvent utilisée pour itérer sur une séquence (comme une liste, une chaîne de caractères, un dictionnaire, ou un intervalle de nombres).</p>
+        </div>
+        <div class="box-boucles">
+            <h3>message = "Ceci est une boucle."</h3>
+            <h3>count = 0</h3>
+            <br>
+            <h3><span class="rouge">for</span> <span class="orange">i</span> in <span class="jaune">range(</span>100<span class="jaune">)</span>: <span class="gris"> #i prendra les valeurs 0, 1, 2, 3, et 4. La valeur dans le range est le nombre de fois que la bouche va être répété</span> </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<span class="rose">count += 1</span> <span class="gris">#Ajoute +1 a "count"</span> </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;print(f"{<span class="rose">count</span>}. { <span class="rose">message</span>}") <span class="gris">#Envoi dans la console : 1. Ceci est une boucle.</span> </h3>
+            <br>
+            <br>
+            <h3><span class="rouge">while</span> <span class="rose">count</span>  < 10:</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;print(f"{<span class="rose">count</span>}. { <span class="rose">message</span>}") <span class="gris">#Envoi dans la console : 1. Ceci est une boucle.</span> </h3>
+        </div> 
+        <div class="exercice"> <a href="./exercice/boucle.html" target="_blank" rel="noopener noreferrer">Code d'un exercice qui fait travaller les boucles for, les conditions et les variables.</a> </div>
+    </div>
+</body>
+</html>

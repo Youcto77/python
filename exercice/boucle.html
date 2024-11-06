@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boucle.css">
+    <link rel="shortcut icon" href="../image/Python-logo-notext.svg.png" type="image/x-icon">
+    <title>Code 2</title>
+</head>
+<body>
+    <div class="box-exercice-boucle">
+        <h3>count_progression = 0</h3>
+        <h3>phrase = input("Quelle est la phrase que vous voulez qui se repete ? :")</h3>
+        <h3>count = int(input("Combien de fois voulez vous qu'elle se repète ? :"))</h3>
+        <br>
+        <h3>if count > 500:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;print("Se chiffre est trop élevé !")</h3>
+        <h3>else:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;print(f"Ok, pour résumer la phrase qui va se répeter {count} est {phrase}.")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;for i in range(count):</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_progression += 1</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f"{count_progression}. {phrase}")</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if count_progression == 100:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Vous avez dépassez les 100 répétissions !")</h3>
+    </div>
+</body>
+</html>
